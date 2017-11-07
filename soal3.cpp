@@ -9,4 +9,11 @@ int main () {
 	cin >> gaji;
 	cout << "Masukkan jam kerja    : ";
 	cin >> jam;
+	
+	lembur= jam - 40;
+	gatot = (lembur*1.5+40)+gaji;
+	pajak=gatot*0.15;
+	gatot=gatot-pajak;
+	
+	cout<<"Gaji bersih pegawai : "<< gatot<<endl;
 }
