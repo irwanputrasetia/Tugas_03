@@ -14,7 +14,7 @@ int main () {
  	if (berat<tinggi/2.5) {
   	cout << "Hasil : Kurus " << endl;
  }
- 	else if  (tinggi/2.5 <= berat <= tinggi/2.3) {
+ 	else if  (tinggi/2.5 <= berat && berat <= tinggi/2.3) {
   	cout <<  "Hasil : Normal" << endl; 
  }
  
